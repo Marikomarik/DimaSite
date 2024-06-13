@@ -16,11 +16,16 @@ a {
   text-decoration: none;
 }
 
-.pfp {
-  width: 56px;
-  height: 56px;
-  border: none;
-  border-radius: 50%;
-  overflow: hidden;
-  cursor: pointer;
+body {
+  background-color: rgb(64, 9, 116);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
 }
