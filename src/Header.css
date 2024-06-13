@@ -48,5 +48,41 @@ header {
 }
 
 .header-bottom {
-  
+  padding: 19px 12px;
+}
+
+.header-bottom-menu {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.header-bottom-menu-buttons {
+  padding-right: 20px;
+}
+
+.header-bottom-ls {
+  display: flex;
+  align-items: center;
+}
+
+.header-bottom-log{
+  padding: 0 20px;
+  height: 75%;
+  background-color: white;
+  border-radius: 2px 0 0 2px;
+  color: #df314d;
+  display: flex;
+  align-items: center;
+}
+
+.header-bottom-sign{
+  padding: 0 20px;
+  height: 75%;
+  background-color: #df314d;
+  border-radius: 0 2px 2px 0;
+  display: flex;
+  align-items: center;
 }

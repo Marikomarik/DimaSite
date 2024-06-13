@@ -19,10 +19,18 @@ a {
 body {
   background-color: rgb(64, 9, 116);
 }
+@media(min-width: 1200px){
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
 
-.container {
-  max-width: 1200px;
-  margin: auto;
+@media(min-width: 992px) and (max-width: 1200px){
+  .container {
+    max-width: 992px;
+    margin: auto;
+  }
 }
 
 .flex-between {

@@ -41,7 +41,22 @@ export default function Header(){
         </div>
         <div className='header-bottom'>
             <div className='container flex-between'>
-                
+                <a><img src={logo}></img></a>
+                <div className='header-bottom-menu'>
+                    <a className='header-bottom-menu-buttons'>Home</a>
+                    <a className='header-bottom-menu-buttons'>Features</a>
+                    <a className='header-bottom-menu-buttons'>Community</a>
+                    <a className='header-bottom-menu-buttons'>Blog</a>
+                    <a className='header-bottom-menu-buttons'>Contact</a>
+                </div>
+                <div className='header-bottom-ls'>
+                    <a className='header-bottom-log'>
+                        LOG IN
+                    </a>
+                    <a className='header-bottom-sign'>
+                        LOG IN
+                    </a>
+                </div>
             </div>
         </div>
     </header>
