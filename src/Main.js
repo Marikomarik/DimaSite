@@ -1,103 +1,62 @@
 import './Main.css'
-import bababoe from './bababoe.jpg'
-import negr from './negr.jpg'
-import Blog from './blog.js'
 
 export default function Main(){
     return(
         <div className='main'>
-            <div className='main-first'>
-                <div className='auth'>
-                    <div>
-                        <input placeholder="Username" type="text" className='Us-Pa-inp'></input>
+            <div className='container flex'>
+                <div className='main-reg'>
+                    <div className='main-reg-text'>
+                        <h3>Introducing TuruLav</h3>
+                        <p>Serious Dating With TuruLav Your Perfect Match is Just a Click Away.</p>
                     </div>
-                    <div>
-                        <input placeholder="Password" type="text" className='Us-Pa-inp'></input>
-                    </div>
-                    <a href="" className='remember'>
-                        Remember Me
-                    </a>
-                    <div className='auth-block'>
-                        <div>
-                            <button href="" className='login-button'>Login</button>
-                        </div>
-                        <div className='auth-block-forgot'>
-                            <a href="">Register</a>
-                            <a href="">Forgot</a>
-                            <a href="">Password</a>
-                        </div>
-                    </div>
-                </div>
-                <div className='latest-members'>
-                    <div className='latest-members-text'>
-                        <b>Latest Members</b>
-                    </div>
-                    <div className='latest-members-ph'>
-                        <img src={bababoe} className='pfp'></img>
-                        <img src={bababoe} className='pfp'></img>
-                        <img src={bababoe} className='pfp'></img>
-                        <img src={bababoe} className='pfp'></img>
-                        <img src={bababoe} className='pfp'></img>
-                    </div>
-                </div>
-            </div>
-            <div className='main-secound'>
-                <img src={negr} className='main-secound-img'></img>
-                <div className='main-secound-auth'>
-                    <div className='main-secound-auth-1'>
-                        <input placeholder="Username" type="text" className='Us-Pa-inp'></input>
-                        <input placeholder="Password" type="text" className='Us-Pa-inp'></input>
-                        <div>
-                            <button href="" className='login-button'>Login</button>
-                        </div>
-                    </div>
-                    <div className='main-secound-auth-2'>
-                        <a href="" className='remember'>
-                            Remember Me
-                        </a>
-                        <div className='auth-block-forgot'>
-                            <a href="">Register</a>
-                            <a href="">Forgot</a>
-                            <a href="">Password</a>
-                        </div>
-                    </div>     
-                </div>
-                <Blog/>
-            </div>
-            <div className='main-third'>
-                <div className='demo-login'>
-                    <b>Login to our demo</b>
-                    <br/><br/><br/>
-                    <b>Dear Customers, login below to see all the features:</b>
-                    <p>
-                    If you’d like to see a regular community member account,
-                     please login with:
-                    </p>
-                    <p>
-                        Login: <strong>joker</strong>
-                        <br/>
-                        Password: <strong>pass</strong>
-                    </p>
-                </div>    
-                <div className='hastag-block'>
-                    <p>
-                        <strong>Community Hashtags</strong>
-                    </p>
-                    <div className='Hast'>
-                        <a className='Hastag'>#60bin</a>
-                        <a className='Hastag'>#ananas</a>
-                        <a className='Hastag'>#aboba</a>
-                        <a className='Hastag'>#cool</a>
-                        <a className='Hastag'>#deb</a>
-                        <a className='Hastag'>#sw3y</a>
-                        <a className='Hastag'>#s1wy</a>
-                        <a className='Hastag'>#swasy</a>
-                        <a className='Hastag'>#sw2y</a>
-                        <a className='Hastag'>#swdy</a>
-                        <a className='Hastag'>#sywey</a>
-                        <a className='Hastag'>#sw</a>
-                        <a className='Hastag'>#sw5qwesy</a>
-                        <a className='Hastag'>#swy</a>
+                    <ul className='main-reg-ul'>
+                        <li>
+                            <span>I am a</span>
+                            <select>
+                                <option value="0">Select Gender</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                                <option value="3">Others</option>
+                            </select>
+                        </li>
+                        <li>
+                            <span>Looking for</span>
+                            <select>
+                                <option value="0">Select Gender</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                                <option value="3">Others</option>
+                            </select>
+                        </li>
+                        <li>
+                            <span>Age</span>
+                            <div className='age-b'>
+                                <select className='age1'>
+                                    <option value="0">18</option>
+                                    <option value="1">19</option>
+                                    <option value="2">20</option>
+                                    <option value="3">21</option>
+                                </select>
+                                <select className='age'>
+                                    <option value="0">18+</option>
+                                    <option value="1">19</option>
+                                    <option value="2">20</option>
+                                    <option value="3">21</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <span>Looking for</span>
+                            <input type='text' placeholder="Your City Name.."></input>
+                        </li>
+                    </ul>
+                    <button type='submit' className='main-reg-find'>
+                        <span>Find Your Partner</span>
+                    </button>
+                    <div className='main-reg-insert'>
+                        <button>Continue with google</button>
+                        <button>a</button>
+                        <button>b</button>
                     </div>
                 </div>
             </div>
