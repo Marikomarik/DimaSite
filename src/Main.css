@@ -1,3 +1,18 @@
+.main-first {
+    padding-top: 100px;
+}
+
+.first-baner {
+    background-image: url('./fon1.jpg');
+    background-size: cover;
+}
+
+.secound-baner {
+    background-image: url('./fon2.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
 .main-reg {
     padding: 40px 30px;
     border: 5px solid #fff;
@@ -149,4 +164,195 @@
     background-color: #55acee;
     border: 0;
     cursor: pointer;
+}
+
+.main h2 {
+    color: #df314d;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.main h1 {
+    color: #fff;
+    margin: 0 0 50px 0;
+    text-align: center;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    margin: 10px 10px;
+    padding: 10px;
+    width: 13%;
+    border-radius: 4px;
+    background: #210053;
+    transition: all .3s ease;
+    -webkit-transition: max-height 1s; 
+    -moz-transition: max-height 1s; 
+    -ms-transition: max-height 1s; 
+    -o-transition: max-height 1s; 
+    transition: max-height 1s;  
+}
+
+.member:hover {
+}
+
+.member img {
+    width: 100%;
+    margin-bottom: 30px;
+    filter: drop-shadow(0 6px 5px rgba(148, 148, 148, .2));
+    transition: all .3s ease;
+    border-radius: 10px;
+    transform: translate(10px, 10px) scale(1.1);
+}
+
+.member img:hover {
+    transform: translate(0, 0);
+}
+
+.member p {
+    text-align: center;
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+
+.member a {
+    display: block;
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-align: center;
+    color: #fff;
+}
+
+.members-buttons {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.members-buttons a{
+    margin: 0 10px;
+    padding: 10px 20px;
+    background: #210053;
+    transition: all .3s ease;
+}
+
+.members-buttons a:hover {
+    background-color: #df314d;
+    box-shadow: 3px 3px 0 currentColor;
+    color: #fff;
+}
+
+.date {
+    padding: 120px 0px;
+}
+
+.date h1 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.date h2 {
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.date-inf {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-inf li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+    padding: 50px;
+    background-color: #391965;
+    position: relative;
+}
+
+.date-inf li p {
+    color: #fff;
+    margin: 0;
+}
+
+.date-inf li h1 {
+    color: #fff;
+    margin: 0;
+    font-size: 40px;
+    position: relative;
+    padding-top: 30px;
+}
+
+.date-inf li h1::before {
+    height: 4px;
+    left: 50%;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100px;
+    background: #df314d;
+    content: "";
+    position: absolute;
+}
+
+.date-inf li img {
+    width: 120px;
+    margin-bottom: 30px;
+}
+
+.date-inf li:before {
+    border-color: #df314e transparent transparent;
+    border-style: solid;
+    border-width: 50px 50px 0 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    width: 0;
+    content: "";
+    position: absolute;
+}
+
+.secound-baner h2 {
+    margin-top: 0;
+    padding-top: 50px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0;
+}
+
+.steps li {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white !important;
+}
+
+.steps li p {
+    text-align: center
+}
+
+.steps li h2 {
+    color: white !important;
+    padding: 0 !important;
+}
+
+.steps li img {
+    width: 144px;
+    height: 144px;
+    margin-bottom: 30px;
+}
+
+.secound-baner{
+    padding: 20px 0;
 }
