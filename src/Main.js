@@ -3,6 +3,7 @@ import ludi from './01.png'
 import member from './01.jpg'
 import date1 from './date1.png'
 import step1 from './step1.png'
+import stories1 from './stories1.jpg'
 export default function Main(){
     return(
         <div className='main'>
@@ -176,6 +177,128 @@ export default function Main(){
                         </li>
                     </ul>
                 </div>
+            </div>
+            <div className='first-baner'>
+                <div className='container stories'>
+                    <h2>Love in Faith Success Stories</h2>
+                    <h1>Sweet Stories From Our Lovers</h1>
+                    <ul>
+                        <li>
+                            <img src={stories1}></img>
+                            <span>Image Post Formate</span>
+                            <p>
+                                Seamlesly evolve unique web-readiness with Collabors atively fabricate best of breed and apcations through
+                            </p>
+                            <button>
+                                Read More
+                            </button>
+                        </li>
+                        <li>
+                            <img src={stories1}></img>
+                            <span>Image Post Formate</span>
+                            <p>
+                                Seamlesly evolve unique web-readiness with Collabors atively fabricate best of breed and apcations through
+                            </p>
+                            <button>
+                                Read More
+                            </button>
+                        </li>
+                        <li>
+                            <img src={stories1}></img>
+                            <span>Image Post Formate</span>
+                            <p>
+                                Seamlesly evolve unique web-readiness with Collabors atively fabricate best of breed and apcations through
+                            </p>
+                            <button>
+                                Read More
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div className='container memb-onl'>
+                <h2>Tip Members</h2>
+                <h1>Turulav Members Online Now</h1>
+                <div className='memb-onl-but'>
+                    <button>Show all</button>
+                    <button>New girl member</button>
+                    <button>New boy member</button>
+                </div>
+                <div className='memb-onl-bl'>
+                    <div className='member'>
+                            <img src={member}></img>
+                            <div>
+                            <a>Andrea Guido</a>
+                            <p>Active 1 Day</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                            <img src={member}></img>
+                            <div>
+                            <a>Andrea Guido</a>
+                            <p>Active 1 Day</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                            <img src={member}></img>
+                            <div>
+                            <a>Andrea Guido</a>
+                            <p>Active 1 Day</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                            <img src={member}></img>
+                            <div>
+                            <a>Andrea Guido</a>
+                            <p>Active 1 Day</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                            <img src={member}></img>
+                            <div>
+                            <a>Andrea Guido</a>
+                            <p>Active 1 Day</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                            <img src={member}></img>
+                            <div>
+                            <a>Andrea Guido</a>
+                            <p>Active 1 Day</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                            <img src={member}></img>
+                            <div>
+                            <a>Andrea Guido</a>
+                            <p>Active 1 Day</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                            <img src={member}></img>
+                            <div>
+                            <a>Andrea Guido</a>
+                            <p>Active 1 Day</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                            <img src={member}></img>
+                            <div>
+                            <a>Andrea Guido</a>
+                            <p>Active 1 Day</p>
+                        </div>
+                    </div>
+                    <div className='member'>
+                            <img src={member}></img>
+                            <div>
+                            <a>Andrea Guido</a>
+                            <p>Active 1 Day</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='first-baner'>
+
             </div>
         </div>
     )

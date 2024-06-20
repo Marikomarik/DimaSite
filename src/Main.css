@@ -356,3 +356,123 @@
 .secound-baner{
     padding: 20px 0;
 }
+
+
+.stories {
+    padding: 60px 0;
+}
+
+.stories h1{
+    color: white !important;
+    line-height: 1.5;
+}
+
+.stories h2{
+    color: white !important;
+    line-height: 1.5;
+}
+
+.stories ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories ul li{
+    overflow: hidden;
+    width: 330px;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #391965;
+}
+
+.stories ul li img {
+    transition: all .3s ease;
+}
+
+.stories ul li img:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.stories ul li span{
+    width: 90%;
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.stories ul li p{
+    width: 90%;
+    color: white;
+    margin: 0 0 35px 0;
+}
+
+.stories ul li button {
+    align-self: flex-start;
+    margin-left: 5%;
+    color: #210053;
+    border-radius: 2px;
+    border: 0;
+    line-height: 50px;
+    padding: 0 1.3rem;
+    text-transform: capitalize;
+    transition: all .3s ease;
+}
+
+.stories ul li button:hover {
+    background-color: #df314d;
+    box-shadow: 3px 3px 0 currentColor;
+    color: #fff;
+}
+
+.memb-onl {
+    
+}
+
+.memb-onl-but {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.memb-onl-but button {
+    border: none;
+    box-shadow: none;
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #210053;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: all .3s ease;
+}
+
+.memb-onl-but button:hover {
+    background-color: #df314d;
+    box-shadow: 3px 3px 0 currentColor;
+    color: #fff;
+}
+
+.memb-onl .member {
+    transition: all .3s ease;
+    width: 16% !important;
+}
+
+.memb-onl .member:hover {
+    background-color: #df314d;
+}
+
+.memb-onl .member img {
+    transform: translate(0px, 0px) scale(1);
+}
+
+.memb-onl-bl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
