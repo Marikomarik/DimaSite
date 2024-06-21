@@ -496,7 +496,8 @@
 .recent ul {
     width: 100%;
     display: flex;
-
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .recent ul li{
@@ -507,6 +508,7 @@
     align-items: center;
     background-color: #391965;
     transition: all .5s ease;
+    margin-bottom: 20px;
 }
 
 .recent ul li:hover {

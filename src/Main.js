@@ -308,7 +308,43 @@ export default function Main(){
                             <div className='recent-bl'>
                                 <span>Active Group A1</span>
                                 <p>
-                                Colabors atively fabcate best breed and apcations through visionary value
+                                    Colabors atively fabcate best breed and apcations through visionary value
+                                </p>
+                                <button>
+                                    View Group
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src={recent1}></img>
+                            <div className='recent-bl'>
+                                <span>Active Group A1</span>
+                                <p>
+                                    Colabors atively fabcate best breed and apcations through visionary value
+                                </p>
+                                <button>
+                                    View Group
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src={recent1}></img>
+                            <div className='recent-bl'>
+                                <span>Active Group A1</span>
+                                <p>
+                                    Colabors atively fabcate best breed and apcations through visionary value
+                                </p>
+                                <button>
+                                    View Group
+                                </button>
+                            </div>
+                        </li>
+                        <li>
+                            <img src={recent1}></img>
+                            <div className='recent-bl'>
+                                <span>Active Group A1</span>
+                                <p>
+                                    Colabors atively fabcate best breed and apcations through visionary value
                                 </p>
                                 <button>
                                     View Group
