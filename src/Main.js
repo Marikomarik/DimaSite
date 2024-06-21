@@ -4,6 +4,7 @@ import member from './01.jpg'
 import date1 from './date1.png'
 import step1 from './step1.png'
 import stories1 from './stories1.jpg'
+import recent1 from './recent1.jpg'
 export default function Main(){
     return(
         <div className='main'>
@@ -298,7 +299,24 @@ export default function Main(){
                 </div>
             </div>
             <div className='first-baner'>
-
+                <div className='container recent'>
+                    <h2>Recently Active Groups</h2>
+                    <h1>Turulav 4 Best Active Group</h1>
+                    <ul>
+                        <li>
+                            <img src={recent1}></img>
+                            <div className='recent-bl'>
+                                <span>Active Group A1</span>
+                                <p>
+                                Colabors atively fabcate best breed and apcations through visionary value
+                                </p>
+                                <button>
+                                    View Group
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     )

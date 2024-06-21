@@ -476,3 +476,74 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+.recent {
+    padding: 10px 0;
+}
+
+.recent h1{
+    color: white;
+    line-height: 1.5;
+    font-size: 2.25rem;
+}
+
+.recent h2{
+    color: white;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.recent ul {
+    width: 100%;
+    display: flex;
+
+}
+
+.recent ul li{
+    overflow: hidden;
+    width: 40%;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    background-color: #391965;
+    transition: all .5s ease;
+}
+
+.recent ul li:hover {
+    background-color: #df314d;
+}
+
+
+.recent-bl {
+    padding-left: 20px;
+}
+
+.recent ul li span{
+    width: 90%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.recent ul li p{
+    width: 90%;
+    color: white;
+    margin: 0 0 35px 0;
+}
+
+.recent ul li button {
+    align-self: flex-start;
+    margin-left: 5%;
+    color: #210053;
+    border-radius: 2px;
+    border: 0;
+    line-height: 50px;
+    padding: 0 1.3rem;
+    text-transform: capitalize;
+    transition: all .3s ease;
+}
+
+.recent ul li button:hover {
+    background-color: #391965;
+    box-shadow: 3px 3px 0 currentColor;
+    color: #fff;
+}
