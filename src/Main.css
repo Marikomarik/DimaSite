@@ -549,3 +549,259 @@
     box-shadow: 3px 3px 0 currentColor;
     color: #fff;
 }
+
+
+.customers {
+    padding: 50px 0;
+    background-image: url('./fon2.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 500px;
+}
+
+.customers ul {
+    position: relative;
+}
+
+.customers ul li {
+    border-radius: 100%;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+
+.customers ul li::after {
+    height: 75px;
+    opacity: .09;
+    width: 75px;
+    background: #0ca5f1;
+    border-radius: 50%;
+    display: inline-block;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    content: "";
+    position: absolute;
+}
+
+.customers ul li::before {
+    height: 65px;
+    opacity: .2;
+    width: 65px;
+    background: #0ca5f1;
+    border-radius: 50%;
+    display: inline-block;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    content: "";
+    position: absolute;
+}
+
+.customers ul li img {
+    border-radius: 100%;
+    position: absolute;
+}
+
+.customer1 {
+    top: 60px;
+    left: 5%;
+}
+
+.customer2 {
+    top: -60px;
+    left: 35%;
+}
+
+.customer3 {
+    top: 240px;
+    left: 30%;
+}
+
+.customer4 {
+    top: 0px;
+    left: 48.2%;
+}
+
+.customer5 {
+    top: 70px;
+    left: 75%;
+}
+
+.customer6 {
+    top: -180px;
+    left: 80%;
+}
+
+.toggle {
+    background: #df314d;
+    color: white;
+    position: absolute;
+    border-radius: 4px;
+    bottom: 50%;
+    box-shadow: 5px 5px 0 0 #fff;
+    opacity: 0;
+    padding: 15px;
+    right: 50%;
+    -webkit-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+    visibility: visible;
+    width: 320px;
+    height: 120px;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.toggle::after{
+    height: 20px;
+    right: 25px;
+    -webkit-transform: rotate(45deg) translateY(10px);
+    transform: rotate(45deg) translateY(10px);
+    width: 20px;
+    background: #df314d;
+    content: "";
+    position: absolute;
+}
+
+.active {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: all;
+}
+
+.customer1 .toggle {
+    top: 70px;
+    left: -5px;
+}
+
+.customer1 .toggle::after {
+    top: -15px;
+    left: 27px;
+}
+
+.customer2 .toggle {
+    top: 70px;
+    left: -5px;
+}
+
+.customer2 .toggle::after {
+    top: -15px;
+    left: 27px;
+}
+
+.customer3 .toggle {
+    bottom: 70px;
+    left: -5px;
+    box-shadow: 5px -5px 0 0 #fff !important;
+}
+
+.customer3 .toggle::after {
+    bottom: 0px;
+    left: 27px;
+}
+
+.customer4 .toggle {
+    bottom: 70px;
+    left: -5px;
+    box-shadow: 5px -5px 0 0 #fff !important;
+}
+
+.customer4 .toggle::after {
+    bottom: 0px;
+    left: 27px;
+}
+
+.customer5 .toggle {
+    bottom: 70px;
+    right: -5px;
+    box-shadow: -5px -5px 0 0 #fff !important;
+}
+
+.customer5 .toggle::after {
+    bottom: 0px;
+    right: 13px;
+}
+
+.customer6 .toggle {
+    bottom: -90px;
+    right: 70px;
+    box-shadow: -5px 5px 0 0 #fff !important;
+}
+
+.customer6 .toggle::after {
+    top: 16px;
+    right: -15px;
+}
+
+
+.download {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 0 0;
+}
+.color {
+    background-color: #df314d;
+}
+
+.download h1 {
+    margin: 0;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.download h2 {
+    color: white;
+    margin: 0;
+    text-align: left;
+}
+
+.download p{
+    color: white;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.download .first {
+    width: 50%;
+    padding: 80px 0;
+}
+
+.download ul {
+    display: flex;
+}
+
+.download li {
+    display: flex;
+    padding: 8px 16px;
+    background-color: #fff;
+    border-radius: 2px;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease;
+    margin-right: 20px;
+}
+
+.download li:hover {
+    transform: translate(0, -10%);
+}
+
+.download li img {
+    margin-right: 20px;
+}
+
+.download li p {
+    margin: 0;
+    color: gray;
+    font-size: 1rem;
+    line-height: 120%;
+}
+
+.download li strong {
+    margin: 0;
+    color: #df314d;
+    font-size: 1.5rem;
+}

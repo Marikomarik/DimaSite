@@ -5,7 +5,25 @@ import date1 from './date1.png'
 import step1 from './step1.png'
 import stories1 from './stories1.jpg'
 import recent1 from './recent1.jpg'
+import customers1 from './customers1.png'
+import downl from './downl.png'
+import ap from './ap.png'
+import { useState } from 'react';
+
 export default function Main(){
+    const [isOpen11, setOpen11] = useState(false);
+    const [isOpen12, setOpen12] = useState(false);
+    const [isOpen21, setOpen21] = useState(false);
+    const [isOpen22, setOpen22] = useState(false);
+    const [isOpen31, setOpen31] = useState(false);
+    const [isOpen32, setOpen32] = useState(false);
+    const [isOpen41, setOpen41] = useState(false);
+    const [isOpen42, setOpen42] = useState(false);
+    const [isOpen51, setOpen51] = useState(false);
+    const [isOpen52, setOpen52] = useState(false);
+    const [isOpen61, setOpen61] = useState(false);
+    const [isOpen62, setOpen62] = useState(false);
+
     return(
         <div className='main'>
             <div className='first-baner'>
@@ -353,6 +371,77 @@ export default function Main(){
                         </li>
                     </ul>
                 </div>
+            </div>
+            <div className='container'>
+                <h2>What our Customers Say</h2>
+                <h1>Client’s Feed back Latest Reviews From My Clients</h1>
+                <div className='customers'>
+                    <ul>    
+                        <li className='customer1' onMouseEnter={() => setOpen11(true)} onMouseLeave={() => setTimeout(()=> setOpen11(false), 50)}>    
+                            <img src={customers1}></img>
+                            <div onMouseEnter={() => setOpen12(true)} onMouseLeave={() => setOpen12(false)} className={`${isOpen11 || isOpen12 ? "active" : ""} toggle`}>
+                                Drama enable wordwide action team whereProcedu Aran Manu Produc Raher ConveneMotin Was Procedur Arramin
+                            </div>
+                        </li>
+                        <li className='customer2' onMouseEnter={() => setOpen21(true)} onMouseLeave={() => setTimeout(()=> setOpen21(false), 50)}>    
+                            <img src={customers1}></img>
+                            <div onMouseEnter={() => setOpen22(true)} onMouseLeave={() => setOpen22(false)} className={`${isOpen21 || isOpen22 ? "active" : ""} toggle`}>
+                                Drama enable wordwide action team whereProcedu Aran Manu Produc Raher ConveneMotin Was Procedur Arramin
+                            </div>
+                        </li>
+                        <li className='customer3' onMouseEnter={() => setOpen31(true)} onMouseLeave={() => setTimeout(()=> setOpen31(false), 50)}>    
+                            <img src={customers1}></img>
+                            <div onMouseEnter={() => setOpen32(true)} onMouseLeave={() => setOpen32(false)} className={`${isOpen31 || isOpen32 ? "active" : ""} toggle`}>
+                                Drama enable wordwide action team whereProcedu Aran Manu Produc Raher ConveneMotin Was Procedur Arramin
+                            </div>
+                        </li>
+                        <li className='customer4' onMouseEnter={() => setOpen41(true)} onMouseLeave={() => setTimeout(()=> setOpen41(false), 50)}>    
+                            <img src={customers1}></img>
+                            <div onMouseEnter={() => setOpen42(true)} onMouseLeave={() => setOpen42(false)} className={`${isOpen41 || isOpen42 ? "active" : ""} toggle`}>
+                                Drama enable wordwide action team whereProcedu Aran Manu Produc Raher ConveneMotin Was Procedur Arramin
+                            </div>
+                        </li>
+                        <li className='customer5' onMouseEnter={() => setOpen51(true)} onMouseLeave={() => setTimeout(()=> setOpen51(false), 50)}>    
+                            <img src={customers1}></img>
+                            <div onMouseEnter={() => setOpen52(true)} onMouseLeave={() => setOpen52(false)} className={`${isOpen51 || isOpen52 ? "active" : ""} toggle`}>
+                                Drama enable wordwide action team whereProcedu Aran Manu Produc Raher ConveneMotin Was Procedur Arramin
+                            </div>
+                        </li>
+                        <li className='customer6' onMouseEnter={() => setOpen61(true)} onMouseLeave={() => setTimeout(()=> setOpen61(false), 50)}>    
+                            <img src={customers1}></img>
+                            <div onMouseEnter={() => setOpen62(true)} onMouseLeave={() => setOpen62(false)} className={`${isOpen61 || isOpen62 ? "active" : ""} toggle`}>
+                                Drama enable wordwide action team whereProcedu Aran Manu Produc Raher ConveneMotin Was Procedur Arramin
+                            </div>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+            <div className='color'>
+                <div className='container download'>
+                    <div className='first'>
+                        <h2>
+                            Download App Our Turulav
+                        </h2>
+                        <h1>
+                            Easy Connect to Everyone
+                        </h1>
+                        <p>
+                            You find us, finally, and you are already in love. More than 5.000.000 around the world already shared the same experience andng ares uses our system Joining us today just got easier!
+                        </p>
+                        <ul>
+                            <li>
+                                <img src={ap}></img>
+                                <p>Avaliable on the<br></br><strong>App Store</strong></p>
+                            </li>
+                            <li>
+                                <img src={ap}></img>
+                                <p>Avaliable on the<br></br><strong>Google play</strong></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src={downl}></img>
+            </div>
             </div>
         </div>
     )

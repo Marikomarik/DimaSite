@@ -1,37 +1,131 @@
 footer {
-    background-color: #262a2e;
-    color: #b9babd;
-    padding: 60px 40px 20px 40px;
+    background-color: #210053;
+    color: white;
+}
+.f-1 {
+    border-bottom: 1px solid hsla(0, 0%, 100%, .1);
+    margin-bottom: 120px;
+}
+.f-1 ul{
+    display: flex;
+    width: 100%;
+    border-left: 1px solid hsla(0, 0%, 100%, .1);
 }
 
-footer .about {
-    width: 30%;
-    line-height: 2rem;
+.f-1 li{
+    width: 33%;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid hsla(0, 0%, 100%, .1);
 }
 
-footer .hastag-block {
-    width: 30%;
+.f-1 li img {
+    height: 40px;
+    margin-right: 20px;
 }
 
-footer .Hast {
-    padding-left: 15px;
-}
-
-footer .Hastag {
-    color: black;
-    margin: 0.25rem;
-    border-radius: 14px;
-    padding: 5px 15px;
-    transition: all .2s ease;
-    background-color: white;
-}
-
-footer .copy-right {
-    margin-top: 50px;
-    text-align: center;
-}
-
-.flex-justify-bettwen {
+.f-2 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 140px;
 }
+
+.About {
+    width: 30%;  
+}
+
+.About p {
+    padding: 10px 0;
+}
+
+.About img {
+    width: 100%;
+}
+
+.RecNew {
+    width: 30%;
+}
+
+.RecNew ul {
+
+}
+
+.RecNew ul li{
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.RecNew div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.RecNew ul li img {
+    width: 80px;
+    height: 70px;
+    margin-right: 15px;
+    transition: all .3s ease;
+}
+
+.RecNew ul li img:hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.RecNew ul li p {
+    margin: 0;
+    transition: all .3s ease;
+}
+.RecNew ul li p:hover{
+    color: #df314d;
+}
+
+.RecNew ul li span{
+    color: #677ca9;
+    font-size: .875rem;
+}
+
+.Newsletter {
+    width: 35%;
+}
+
+.Newsletter input{
+    border: none;
+    box-shadow: none;
+    padding: 16px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+ 
+.Newsletter button{
+    display: block;
+    border: none;
+    line-height: 56px;
+    background: #df314d;
+    color: white;
+    padding: 0 20px;
+    outline: none;
+    transition: all .3s ease;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+}
+
+.Newsletter button:hover {
+    box-shadow: -0.698px 9.976px 10px 0 hsla(0,0%,100%,.2);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+
+.footer {
+    padding: 30px 0;    
+    text-align: center;
+    background-color: #391965;
+}
+
+.footer span {
+    color: #df314d;;
+}
+
